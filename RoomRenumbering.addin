@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RevitAddIns>
+  <AddIn Type="Command">
+    <Text>Command RoomRenumbering</Text>
+    <Description>Some description for RoomRenumbering</Description>
+    <Assembly>RoomRenumbering.dll</Assembly>
+    <FullClassName>RoomRenumbering.Commands</FullClassName>
+    <ClientId>bffbf3c8-9323-47f6-9caf-207474b29890</ClientId>
+    <VendorId>ADNP</VendorId>
+    <VendorDescription>Autodesk, http://www.autodesk.com/ </VendorDescription>    
+  </AddIn>
+  <AddIn Type="Application">
+    <Name>Application RoomRenumbering</Name>
+    <Assembly>RoomRenumbering.dll</Assembly>
+    <ClientId>33e2efda-5790-48ce-aeff-8acda27622b2</ClientId>
+    <FullClassName>RoomRenumbering.Application</FullClassName>
+    <VendorId>ADNP</VendorId>
+    <VendorDescription>Autodesk, http://www.autodesk.com/ </VendorDescription>  </AddIn>
+</RevitAddIns>
